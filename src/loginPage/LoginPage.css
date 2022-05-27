@@ -1,0 +1,93 @@
+* {
+    font-family: "Montserrat", sans-serif
+}
+
+.bgimg {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('photo.jpg');
+    margin-left:0%;
+    min-height: 100%;
+}
+
+.w3-sidebar{
+    margin-left: 0%;
+    width: 40%;
+}
+
+.onChat{
+    margin-top: -5%;
+    margin-left: 30%;
+    margin-right: -4%;
+}
+
+.secHeadLine{
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-right: -4%;
+}
+
+#button1Log {
+    margin-left: 58%;
+    margin-top: -0.5%;
+     
+}
+
+#button2Log {
+    z-index: 2;
+    position: absolute;
+    margin-left: 67%;
+    margin-top: -3.3%;  
+}
+
+
+.poweredBy {
+    margin-top: 4%;
+   margin-bottom: 0%;
+    margin-right: -33%;
+}
+
+
+.loginText {
+    width: 70%;
+    margin-left: 42%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+   
+}
+
+#loginInfo1 {
+    width:auto;
+    height: 30%;
+    margin-left: 33%;
+    text-align:center;
+    margin-top: 1%;
+    margin-bottom: -0.8%;
+}
+
+#loginInfo2 {
+    width:auto;
+    height: 30%;
+    margin-left: 33%;
+    text-align:center;
+    margin-top: -3%;
+    margin-bottom: -0.8%;
+}
+
+.loginPageHeadline {
+    margin-bottom:3%;
+    margin-top: -6%;
+    margin-right: -32%;
+}
+
+.rate{
+    margin-left:62%;
+    margin-top:13.5%;
+    z-index: 7;
+    position: absolute;
+    font-size: large;
+    font-weight: bold;
+    
+}

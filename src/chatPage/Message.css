@@ -1,0 +1,104 @@
+.message-data-righ{
+  display: inline-block;
+  word-wrap: break-word;
+  width: 45%;
+  align-self: flex-start;
+
+   
+  
+}
+
+.message-data-left{
+   margin-left: 8%;
+   margin-top: -8%;
+   float: left; 
+}
+
+.col1{
+   width: 50%;
+   margin-left: 0%;
+   margin-right: 100%;
+}
+
+.col2{
+   width: 50%;
+   margin-right: 0%;
+   margin-left: 100%;
+}
+
+ul {
+   list-style-type: none;
+}
+
+
+/* talk bubble contents */
+.talktext{
+   margin-top: -1.5%;
+   margin-left:-15%;
+   padding: 1em;
+   text-align: left;
+   line-height: 1.5em;
+
+}
+
+ 
+.round{
+   border-radius: 30%;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30%;
+}
+
+.tri-right.left-in:after{
+   content: ' ';
+   position: absolute;
+   margin-left: -95%;
+   margin-top: -4.5%; 
+   border: 12px solid;
+   border-color: lightyellow lightyellow transparent transparent;
+}
+ 
+.tri-right.right-in:after{
+     content: ' ';
+     position: absolute;
+     margin-right: -95%;
+     margin-top: -20%; 
+     border: 12px solid;
+     border-color: lightyellow transparent transparent lightyellow;
+}
+
+
+.talktext p{
+   /* remove webkit p margins */
+   -webkit-margin-before: 0em;
+   -webkit-margin-after: 0em;
+}
+
+.messages {
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   
+}
+ 
+.message {
+   border-radius: 20px;
+   padding: 8px 15px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   display: inline-block;
+}
+
+.mine {
+   width: 100%;
+}
+ 
+.mine .message {
+   float: right;
+   background: linear-gradient(to bottom, #f8f8f8 0%, #42b6fe 100%);
+   background-attachment: fixed;
+
+}
+
+.leftSide{
+   margin-left: 5.5%;
+}
